@@ -1,0 +1,25 @@
+.box {
+  border: 5px solid darkblue;
+  min-block-size: 150px;
+  inline-size: 200px;
+}
+
+div.wrapper > div {
+  border: 5px solid darkblue;
+}
+
+.box2 {
+  width: 200px;
+}
+
+.minibox {
+  width: 50px;
+}
+
+.width {
+  width: 100%;
+}
+
+.max {
+  max-width: 100%;
+}

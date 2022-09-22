@@ -1,0 +1,25 @@
+/* if any selector is syntactically invalid, the whole rule will be ignored */
+/* h1, ..special {  => here, '..special' is invalid
+  color: blue;
+} */
+
+a[title] {
+  color: red;
+}
+
+a[href="https://www.google.com"]
+{
+  background-color: lightblue;
+}
+
+a:hover {
+  color: gold;
+}
+
+p::first-line {
+  color: blueviolet;
+}
+
+section > a {
+  text-decoration: overline;
+}

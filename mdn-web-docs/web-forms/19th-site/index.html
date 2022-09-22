@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>19th-site</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Date and time pickers</legend>
+        <p>
+          <label for="datetime-local">datetime-local</label>
+          <input
+            type="datetime-local"
+            id="datetime-local"
+            name="datetime-local"
+          />
+        </p>
+        <p>
+          <label for="month">month</label>
+          <input type="month" id="month" name="month" />
+        </p>
+        <p>
+          <label for="time">time</label>
+          <input type="time" id="time" name="time" />
+        </p>
+        <p>
+          <label for="week">week</label>
+          <input type="week" id="week" name="week" />
+        </p>
+        <!-- All date and time controls can be constrained using the min and max attributes, with further constraining possible via the step attribute (whose value varies according to input type). -->
+        <p>
+          <label for="myDate">When are you available this summer?</label>
+          <input
+            type="date"
+            name="myDate"
+            min="2022-12-21"
+            max="2023-03-21"
+            step="7"
+            id="myDate"
+          />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

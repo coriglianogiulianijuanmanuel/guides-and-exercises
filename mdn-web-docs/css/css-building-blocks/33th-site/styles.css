@@ -1,0 +1,7 @@
+.box {
+  border: 10px solid rebeccapurple;
+  border-radius: 1em;
+  border-top-right-radius: 500%;
+  border-bottom-right-radius: 500%;
+  background-color: pink;
+}

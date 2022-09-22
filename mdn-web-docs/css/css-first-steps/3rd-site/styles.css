@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+p,
+li {
+  color: green;
+}
+
+li {
+  list-style-type: square;
+}
+
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}

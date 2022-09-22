@@ -1,0 +1,5 @@
+html {
+  background: url("firefox-logo.png") no-repeat center;
+  background-image: url("firefox-logo.svg");
+  background-size: contain;
+}

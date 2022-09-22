@@ -1,0 +1,27 @@
+/* Cascade */
+h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+/* Specificity */
+.paragraph {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+/* Inheritance */
+div {
+  color: blue;
+  width: 50%; /* this property does not inherit */
+}
+
+span {
+  color: black;
+}

@@ -1,0 +1,26 @@
+@layer layer1, layer2;
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center !important;
+  color: white !important;
+  background-color: crimson !important;
+}
+
+@layer layer1 {
+  h1 {
+    font-family: sans-serif;
+    text-align: left;
+    color: yellow !important;
+    background-color: blue;
+  }
+}
+
+@layer layer2 {
+  h1 {
+    font-family: serif;
+    text-align: right !important;
+    color: orange;
+    background-color: lightblue !important;
+  }
+}

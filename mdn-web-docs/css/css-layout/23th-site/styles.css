@@ -1,0 +1,27 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  /* We can change the positioning context, that is, which element the absolutely positioned element is positioned relative to. This is done by setting positioning on one of the element's ancestors: to one of the elements it's nested inside of */
+  /* position: relative; */
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+/* Put your CSS here! */
+
+.positioned {
+  position: absolute;
+  background: yellow;
+  top: 30px;
+  left: 30px;
+}

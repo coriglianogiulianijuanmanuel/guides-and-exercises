@@ -1,0 +1,22 @@
+h1 {
+  border-top-width: 5px;
+  border-top-style: dashed;
+  border-top-color: cyan;
+  border-right-width: 4px;
+  border-right-style: dotted;
+  border-right-color: aquamarine;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: darkcyan;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+p {
+  border-top: 5px dashed cyan;
+  border-right: 4px dotted aquamarine;
+  border-bottom: 3px solid darkcyan;
+  padding: 50px 40px 30px 20px;
+}

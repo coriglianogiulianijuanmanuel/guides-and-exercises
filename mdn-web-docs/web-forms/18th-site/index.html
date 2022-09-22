@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18th-site</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Slider controls</legend>
+        <label for="price">Choose a maximum house price: </label>
+        <input
+          type="range"
+          id="price"
+          name="price"
+          min="50000"
+          max="500000"
+          step="100"
+          value="250000"
+        />
+        <output class="price-output" for="price"></output>
+      </fieldset>
+    </form>
+  </body>
+</html>

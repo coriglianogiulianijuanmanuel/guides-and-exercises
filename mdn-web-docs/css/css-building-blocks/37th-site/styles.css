@@ -1,0 +1,13 @@
+.a {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow: visible scroll;
+}
+
+.b {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}

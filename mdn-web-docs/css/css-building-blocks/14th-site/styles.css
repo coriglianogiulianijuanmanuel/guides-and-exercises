@@ -1,0 +1,22 @@
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+article p:last-child {
+  color: darkorange;
+}
+
+article p:only-child {
+  background-color: darkred;
+}
+
+p a:link,
+p a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: hotpink;
+}

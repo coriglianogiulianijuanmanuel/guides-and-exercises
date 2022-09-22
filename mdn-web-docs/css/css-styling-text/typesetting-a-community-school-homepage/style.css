@@ -1,0 +1,170 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* Local fonts */
+
+@font-face {
+  font-family: "playfair_displayregular";
+  src: url("fonts/playfairdisplay-regular-webfont.woff2") format("woff2"),
+    url("fonts/playfairdisplay-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rubikregular";
+  src: url("fonts/rubik-regular-webfont.woff2") format("woff2"),
+    url("fonts/rubik-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+  font-family: "playfair_displayregular";
+}
+
+h1,
+h2 {
+  font-family: "rubikregular";
+  letter-spacing: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p,
+ul,
+ol,
+li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+}
+
+ul,
+ol {
+  list-style: square outside;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+
+section a,
+aside a {
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+section a:link,
+section a:visited,
+aside a:link,
+aside a:visited {
+  color: #a66;
+}
+
+section a:focus,
+section a:hover,
+aside a:focus,
+aside a:hover {
+  color: white;
+  background-color: #a66;
+  border-bottom: none;
+}
+
+section a:active,
+aside a:active {
+  color: white;
+  background-color: rgb(169, 64, 64);
+}
+
+a[href^="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 1.6rem 1.6rem;
+  padding-right: 2rem;
+}
+
+nav ul li {
+  font-family: "rubikregular";
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  padding: 0.2rem;
+  border: 2px solid #a66;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a66;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+}
+
+nav ul li a:focus,
+nav ul li a:hover {
+  color: white;
+  background-color: #a66;
+}
+
+nav ul li a:active {
+  background-color: rgb(169, 64, 64);
+}

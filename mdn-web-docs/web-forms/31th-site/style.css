@@ -1,0 +1,17 @@
+fieldset,
+legend {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+fieldset {
+  position: relative;
+}
+
+legend {
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5th-site</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>This is a form test</legend>
+        <p>
+          Required fields are followed by <span aria-label="required">*</span>.
+        </p>
+        <!-- So this: -->
+        <!--div>
+          <label for="username">Name:</label>
+          <input id="username" type="text" name="username">
+          <label for="username"><span aria-label="required">*</abbr></label>
+        </div-->
+        <!-- would be better done like this: -->
+        <!-- <div>
+          <label for="username">
+            <span>Name:</span>
+            <input id="username" type="text" name="username" />
+            <span aria-label="required">*</span>
+          </label>
+        </div> -->
+        <!-- But this is probably best: -->
+        <div>
+          <label for="username"
+            >Name: <span aria-label="required">*</span></label
+          >
+          <input id="username" type="text" name="username" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

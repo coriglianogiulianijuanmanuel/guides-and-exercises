@@ -1,0 +1,55 @@
+.box {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.scroll {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.scroll-y {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.word {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  overflow-x: scroll;
+}
+
+.word2 {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  overflow-wrap: break-word;
+}
+
+.word3 {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  word-break: break-all;
+}
+
+.word4 {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  word-break: keep-all;
+}
+
+.word5 {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  word-break: normal;
+}

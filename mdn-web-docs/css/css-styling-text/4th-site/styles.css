@@ -1,0 +1,53 @@
+/* General styles */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+li,
+p {
+  line-height: 1.5;
+}
+
+/* Description list styles */
+
+dd,
+dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ol {
+  /* list-style-type: lower-greek;
+  list-style-position: inside; */
+  list-style: lower-greek inside;
+}
+
+ul {
+  /* list-style-image: url(star.png); */
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url(star.png);
+  background-position: center left;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}

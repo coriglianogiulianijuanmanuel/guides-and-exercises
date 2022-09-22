@@ -1,0 +1,20 @@
+/* afecta a la clase 'special' que esta anidada al elemento 'p', el cual viene despues del elemento 'h1', el cual esta anidado a 'body' */
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+p + ul + p {
+  color: brown;
+}
+
+body ul em {
+  color: orange;
+  background-color: blue;
+}
+
+body h1 + p + p + ul li span.kinda-special {
+  color: chartreuse;
+  font-weight: bold;
+}

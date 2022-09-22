@@ -1,0 +1,22 @@
+.box p {
+  color: red;
+}
+
+ul > li {
+  border-top: 5px solid red;
+}
+
+article h1 + p {
+  color: lightseagreen;
+}
+
+h1 ~ p {
+  text-decoration: overline;
+  font-weight: bold;
+  background-color: #333;
+  padding: 0.5em;
+}
+
+div.box ~ ul li ol > li {
+  color: coral;
+}

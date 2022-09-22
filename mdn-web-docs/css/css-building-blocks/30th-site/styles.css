@@ -1,0 +1,10 @@
+.a {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(star.png), url(firefox-icon.png);
+  background-color: red;
+  background-repeat: repeat-y, no-repeat;
+  background-size: 20px 20px, contain;
+  background-position: top right, 0 0;
+}

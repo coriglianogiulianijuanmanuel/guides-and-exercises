@@ -1,0 +1,7 @@
+.container {
+  column-width: 200px;
+}
+
+.container2 {
+  column-count: 3;
+}

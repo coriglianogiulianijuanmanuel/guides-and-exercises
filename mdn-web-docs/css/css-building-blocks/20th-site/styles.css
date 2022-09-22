@@ -1,0 +1,24 @@
+body {
+  border: 2px solid #2f2f31;
+  background-color: #bdbdbd;
+}
+h1 {
+  border: 2px solid #2f2f31;
+  background-color: cornflowerblue;
+}
+p {
+  border: 2px solid #2f2f31;
+  background-color: aquamarine;
+  display: inline;
+}
+ul {
+  border: 2px solid #2f2f31;
+  background-color: darkseagreen;
+  list-style: none;
+  display: flex;
+  padding: 0.5em;
+}
+li {
+  border: 2px solid #2f2f31;
+  background-color: lightsalmon;
+}

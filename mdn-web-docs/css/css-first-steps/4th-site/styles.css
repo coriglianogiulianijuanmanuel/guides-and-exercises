@@ -1,0 +1,24 @@
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+p span {
+  color: red;
+}
+
+a:link {
+  color: pink;
+  font-weight: bold;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.relative {
+  background-color: brown;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.absolute {
+  background-color: brown;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.fixed {
+  background-color: brown;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+.sticky {
+  background-color: brown;
+  position: sticky;
+  top: 30px;
+  left: 30px;
+}

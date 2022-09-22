@@ -1,0 +1,13 @@
+/* By default, some widgets do not inherit font-family and font-size from their parents. Many browsers use the system default appearance instead. To make your forms' appearance consistent with the rest of your content, you can add the following rules to your stylesheet: */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  /* each widget has their own rules for border, padding and margin. To give the same size to several different widgets, you can use the box-sizing property along with some consistent values for other properties: */
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

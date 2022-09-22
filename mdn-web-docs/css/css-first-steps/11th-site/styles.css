@@ -1,0 +1,21 @@
+/* This */
+
+/* .header {
+  background-color: red;
+  background-image: url(firefox-icon.png);
+  background-position: 10px 10px;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+} */
+
+/* is equivalent to this */
+
+.header {
+  background: red url(firefox-icon.png) 10px 10px repeat-x fixed;
+}
+
+p {
+  font-weight: bold;
+  /* colour: blue;  incorrect spelling of the color property */
+  font-size: 200%;
+}

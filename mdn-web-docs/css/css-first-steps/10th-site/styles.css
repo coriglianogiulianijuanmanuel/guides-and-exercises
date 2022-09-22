@@ -1,0 +1,11 @@
+@import "styles2.css";
+
+p {
+  color: white;
+}
+
+@media (min-width: 80px) {
+  p {
+    background-color: crimson;
+  }
+}

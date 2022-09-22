@@ -1,0 +1,31 @@
+div {
+  display: inline-block;
+}
+
+.a {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(firefox-icon.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.b {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(firefox-icon.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.c {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: url(firefox-icon.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+}

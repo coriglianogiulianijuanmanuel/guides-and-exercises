@@ -1,0 +1,22 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body > * {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+.headers {
+  inline-size: 200px;
+  block-size: 300px;
+}
+
+.a {
+  writing-mode: vertical-rl;
+}
+
+.b {
+  writing-mode: horizontal-tb;
+}

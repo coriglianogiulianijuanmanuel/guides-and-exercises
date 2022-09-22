@@ -1,0 +1,25 @@
+/* p {
+  color: red;
+} */
+
+/* p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+} */
+
+p,
+li,
+h1 {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+a {
+  color: rgb(255, 60, 0);
+}
+
+a:hover {
+  color: rgb(255, 119, 0);
+}

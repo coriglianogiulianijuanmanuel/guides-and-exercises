@@ -1,0 +1,17 @@
+/* Later styles replace conflicting styles that appear earlier in the stylesheet. */
+h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+/* However, a class is rated as being more specific, as in having more specificity than the element selector, so it cancels the other conflicting style declaration. */
+.special {
+  color: red;
+}
+
+p {
+  color: blue;
+}

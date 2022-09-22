@@ -1,0 +1,70 @@
+html {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid blue;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+thead th:nth-child(4) {
+  width: 30%;
+}
+
+th,
+td {
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead,
+tfoot {
+  background-color: #2f2f31;
+  color: #bdbdbd;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  border: 3px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: grey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: silver;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: right;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-style: italic;
+}
